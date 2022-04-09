@@ -1,6 +1,7 @@
 #  计算机视觉-Pj1仓库
 
 本项目基于Numpy对神经网络进行模块化，将网络拆分成'损失函数', '优化器', '传递层'模块，方便自定义。
+MNIST文件夹包含了各种数据，可以在[Google网盘](https://drive.google.com/drive/folders/10pMCw9CHptZgAzjbEXeUsAhrkz7Yjk6U?usp=sharing)下载。
 
 ## 框架
 
@@ -41,7 +42,7 @@
 
 ## 文件说明
 
-- MNIST文件夹：该文件夹上传在[Google网盘](https://drive.google.com/drive/folders/10pMCw9CHptZgAzjbEXeUsAhrkz7Yjk6U?usp=sharing)，包含了样本（trainset.npz, testset.npz)，模型参数（param.npz），参数查找记录（record.txt），可视化信息记录（plotinfo.npz）
+- MNIST文件夹：包含了样本（trainset.npz, testset.npz)，模型参数（param.npz），参数查找记录（record.txt），可视化信息记录（plotinfo.npz）
 - package/layers文件夹：传递层模块，存有规范化层、全连接层以及包括sigmoid、ReLU、Tanh等激活函数
 - package/loss文件夹：损失函数模块，实现了均方损失和交叉熵损失
 - package/loss文件夹：优化器模块，实现了SGD，Momentum，RMSporp优化器
