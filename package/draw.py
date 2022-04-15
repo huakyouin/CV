@@ -14,7 +14,7 @@ plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 def draw_ts(data,legend):
     for i in range(len(data)):
         plt.plot(data[i],label=legend[i])
-    plt.xlabel('epoch_num')
+    plt.xlabel('batch_num')
     plt.legend()
     plt.show()
     return()
